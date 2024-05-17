@@ -1,0 +1,50 @@
+.VBox {
+    -fx-background-color: #191919;
+}
+
+#HeadLabel {
+    -fx-text-fill: #dd52f3;
+    -fx-font-weight: bold;
+    -fx-font-size: 35;
+
+}
+
+.label {
+    -fx-text-fill: #dd52f3;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+
+.radio-button {
+    -fx-text-fill: #dd52f3;
+    -fx-font-weight: bold;
+}
+
+.radio-button:hover{
+    -fx-border-color: transparent; /* Border color on hover */
+    -fx-effect: dropshadow(three-pass-box, #ffffff, 8, 0, 0, 0); /* Neon shadow */
+}
+
+.gridPane{
+    -fx-background-color: #dd52f3;
+    -fx-background-radius: 10;
+}
+
+#choiceBtn {
+    -fx-background-radius: 25;
+    -fx-background-color: #dd52f3;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+#choiceBtn:hover{
+    -fx-background-color: #dd52f3;
+    -fx-text-fill: #ffffff; /* Text color on hover */
+    -fx-border-color: transparent; /* Border color on hover */
+    -fx-effect: dropshadow(three-pass-box, #ffffff, 8, 0, 0, 0); /* Neon shadow */
+}
+
+.gameBtn {
+    -fx-background-radius: 10;
+}
